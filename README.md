@@ -1,6 +1,6 @@
 # Mental image reconstruction
 
-![header_img](https://user-images.githubusercontent.com/52347843/227773839-7788e801-479c-4f02-832b-861a10f6dc4c.png)
+![header_img](https://user-images.githubusercontent.com/52347843/227773925-abe618b8-4dbc-4d43-b586-7668d881c1b8.png)
 
 Mental image reconstruction from human brain activity
 Naoko Koide-Majima, Kei Majima

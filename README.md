@@ -3,7 +3,7 @@
 ![header_img](https://user-images.githubusercontent.com/52347843/227773925-abe618b8-4dbc-4d43-b586-7668d881c1b8.png)
 
 Mental image reconstruction from human brain activity<br>
-Naoko Koide-Majima, Shinji Nishimoto, Kei Majima
+Naoko Koide-Majima, Shinji Nishimoto, Kei Majima<br>
 [https://www.biorxiv.org/content/10.1101/2023.01.22.525062v2](https://www.biorxiv.org/content/10.1101/2023.01.22.525062v2)
 
 # Abstract

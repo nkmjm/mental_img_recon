@@ -8,7 +8,7 @@
 -->
 
 <p align="center"><a href='https://www.youtube.com/embed/cvgaw-0MecI'>
-<img alt="mental_image_reconstruction__movie" width="75%" src='https://github.com/nkmjm/mental_img_recon/assets/52347843/0b25785c-2f94-4c1d-95f9-3ae5ad7d049f'>
+<img alt="mental_image_reconstruction__movie" width="75%" src='https://github.com/nkmjm/mental_img_recon/assets/52347843/1310a5d4-8990-45df-a18c-50705c2f39d1'>
 </a></p>
 
 

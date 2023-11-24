@@ -3,8 +3,9 @@
 <img alt="mental_image_reconstruction__header" width="75%" src="https://github.com/nkmjm/mental_img_recon/assets/52347843/b4aa3cec-58f4-4d76-8a49-33dae8b4877b">
 </p>
 
-[!['Mental Image Reconstruction from Human Brain Activity'](<img src='https://github.com/nkmjm/mental_img_recon/assets/52347843/0b25785c-2f94-4c1d-95f9-3ae5ad7d049f'>)]('https://www.youtube.com/embed/cvgaw-0MecI')
-<img src='https://github.com/nkmjm/mental_img_recon/assets/52347843/0b25785c-2f94-4c1d-95f9-3ae5ad7d049f'>('https://www.youtube.com/embed/cvgaw-0MecI')
+
+<img src='https://github.com/nkmjm/mental_img_recon/assets/52347843/0b25785c-2f94-4c1d-95f9-3ae5ad7d049f'>
+
 
 
 # Abstract

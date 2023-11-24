@@ -15,6 +15,7 @@
 # Abstract
 In this study, we present a machine learning method for visualizing subjective images in the human mind based on brain activity. Although many previous studies have demonstrated that images observed by humans can be reconstructed from their brain activity, the visualization (externalization) of mental imagery remains a challenge. To achieve this long-standing milestone, we combined a previous visual image reconstruction method with recently developed neural network technology into a single Bayesian estimation framework. The results demonstrated that our proposed framework successfully reconstructed both seen and imagined images from brain activity, which would provide a unique tool for directly investigating the subjective contents of the brain such as illusions, hallucinations, and dreams.
 
+# Code availability
 A Python implementation of our proposed algorithm will be made available soon after the publication of the journal version of this article.
 
 # Paper

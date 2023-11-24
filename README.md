@@ -13,8 +13,7 @@
 
 
 # Abstract
-Visual images perceived by humans can be reconstructed from their brain activity. However, the visualization (externalization) of mental imagery remains a challenge. Here we proposed a novel method by incorporating recently 
-and introduced the assistance of semantic information into it. Our proposed framework successfully reconstructed both seen (i.e., directly captured by the human eye) and imagined images from the brain activity. These results suggest that our framework would provide a technology for directly investigating the subjective contents of the brain.
+In this study, we present a machine learning method for visualizing subjective images in the human mind based on brain activity. Although many previous studies have demonstrated that images observed by humans can be reconstructed from their brain activity, the visualization (externalization) of mental imagery remains a challenge. To achieve this long-standing milestone, we combined a previous visual image reconstruction method with recently developed neural network technology into a single Bayesian estimation framework. The results demonstrated that our proposed framework successfully reconstructed both seen and imagined images from brain activity, which would provide a unique tool for directly investigating the subjective contents of the brain such as illusions, hallucinations, and dreams.
 
 # Paper
 <ul><li>

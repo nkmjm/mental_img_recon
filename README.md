@@ -17,7 +17,7 @@ Visual images perceived by humans can be reconstructed from their brain activity
 
 # Paper
 <ul><li>
-Mental image reconstruction from human brain activity<br>
+Mental image reconstruction from human brain activity: Neural decoding of mental imagery via deep neural network-based Bayesian estimation<br>
 Naoko Koide-Majima, Shinji Nishimoto, Kei Majima<br>
 https://doi.org/10.1016/j.neunet.2023.11.024
 </li></ul>

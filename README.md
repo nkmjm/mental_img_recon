@@ -26,7 +26,7 @@ https://doi.org/10.1016/j.neunet.2023.11.024
 </li></ul>
 
 # BibTeX
-@article{koide2023mental,<br>
+@article{koide2024mental,<br>
   title={Mental image reconstruction from human brain activity: Neural decoding of mental imagery via deep neural network-based Bayesian estimation},<br>
   author={Naoko Koide-Majima and Shinji Nishimoto and Kei Majima},<br>
   journal={Neural Networks},<br>

@@ -25,4 +25,13 @@ Naoko Koide-Majima, Shinji Nishimoto, Kei Majima<br>
 https://doi.org/10.1016/j.neunet.2023.11.024
 </li></ul>
 
+# BibTeX
+@article{koide2023mental,
+  title={Mental image reconstruction from human brain activity: Neural decoding of mental imagery via deep neural network-based Bayesian estimation},
+  author={Naoko Koide-Majima and Shinji Nishimoto and Kei Majima},
+  journal={Neural Networks},
+  year={2024},
+  publisher={Elsevier}
+}
+
 

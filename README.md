@@ -21,7 +21,8 @@ A Python implementation of our proposed algorithm will be made available soon af
 # Paper
 <ul><li>
 Koide-Majima, Naoko, Shinji Nishimoto, and Kei Majima.<br>
-"Mental image reconstruction from human brain activity: Neural decoding of mental imagery via deep neural network-based Bayesian estimation."<br>
+"Mental image reconstruction from human brain activity: <br>
+Neural decoding of mental imagery via deep neural network-based Bayesian estimation."<br>
 Neural Networks (2023).<br>
 https://doi.org/10.1016/j.neunet.2023.11.024
 </li></ul>

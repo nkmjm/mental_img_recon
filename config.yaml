@@ -1,0 +1,89 @@
+
+###
+### file path
+
+file_path:
+    taming_transformer_dir: "./taming-transformers/"
+    decoded_feat_dir: "./features/decoded_features/"
+    mean_feat_dir: "./features/meanDNNfeature/"
+    recon_img_dir: "./recon_images/"
+
+
+###
+### feat model
+
+models:
+    VGG19:
+        used_layers: ["features[2]", "features[7]", "features[16]", "features[25]", "features[34]", "classifier[0]", "classifier[3]", "classifier[6]"]
+    CLIP:
+        modelnames: ["CLIP_ViT-B_32"]
+        modeltypes: ["ViT-B/32"]
+        modelcoefs: [1]
+        modeltype_examples: ["RN50", "RN101", "ViT-B/16", "ViT-B/32", "ViT-L/14"]
+        used_layer: "lastLayer"
+
+    
+###
+### recon method
+
+recon_methods: ["original", "withoutVQGAN", "Langevin", "withoutLangevin"]
+
+recon_feat_layers:
+    
+    all:
+        VGG19: ["features[2]", "features[7]", "features[16]", "features[25]", "features[34]", "classifier[0]", "classifier[3]", "classifier[6]"]
+        CLIP: ["lastLayer"]
+    
+    middle:
+        VGG19: ["features[7]", "features[16]", "features[25]", "features[34]", "classifier[0]"]
+        CLIP: ["lastLayer"]
+    
+    custom:
+        VGG19: ["features[7]", "features[16]"]
+        CLIP: ["lastLayer"]
+
+recon_params: 
+    
+    original: # used in Koide-Majima et al., 2024
+        feat_set: "all" # "all", "middle", or "custom"
+        clip_coef: 0.25
+        display_every: 50
+        numReps: 1000
+        similarity: "corr"
+        Langevin: 
+            lr_gamma: 0.055
+            lr_a: 0.00015
+            lr_b: 0.15
+            T: 0.000001
+            
+    withoutVQGAN:
+        feat_set: "all" # "all", "middle", or "custom"
+        clip_coef: 0.25
+        display_every: 50
+        numReps: 1000
+        similarity: "corr"
+        Langevin: 
+            lr_gamma: 0.055
+            lr_a: 0.00015
+            lr_b: 0.15
+
+    Langevin:
+        feat_set: "all" # "all", "middle", or "custom"
+        clip_coef: 0.25
+        display_every: 50
+        numReps: 1000
+        similarity: "corr"
+        Langevin:
+            lr_gamma: 0.1
+            lr_a: 1
+            lr_b: 1
+            T: 0.0001
+
+    withoutLangevin: 
+        feat_set: "all" # "all", "middle", or "custom"
+        clip_coef: 0.25
+        display_every: 50
+        numReps: 1000
+        similarity: "corr"
+        
+        

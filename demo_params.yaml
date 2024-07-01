@@ -1,0 +1,21 @@
+
+
+subjectnames: ["S01", "S02", "S03"] # "S01", "S02", "S03"
+
+dt_targetimages_path: './ref_images/target_images.pkl'
+fig_targetimages_path: './ref_images/target_images.jpg'
+fig_demoimages_path: ['./ref_images/demo_im01.jpg', './ref_images/demo_im02.jpg', './ref_images/demo_im03.jpg']
+
+targetimnames: ["red_smallring", "red_+", "red_X", "green_smallring", "green_+", "green_X", "blue_smallring", "blue_+", "blue_X", "white_smallring", "white_+", "white_X", "black_smallring", "black_+", "black_X", "fixation", "n02416519_12793", "n01443537_22563", "n01677366_18182", "n02128385_20264", "n01858441_11077", "n02690373_7713", "n02882301_14188", "n03710193_22225", "n04297750_25624", "n04507155_21299"]
+
+decfearture_path: "./features/decoded_features/__subjectname__/__modelname__/__layername__/imagery____targetimname__.pkl"
+decfearture_pathitems: ["__subjectname__", "__modelname__", "__layername__", "__targetimname__"]
+
+truefearture_path: "./features/image_features/__modelname__/__layername__/__targetimname__.pkl"
+truefearture_pathitems: ["__modelname__", "__layername__", "__targetimname__"]
+
+recon_method: "original" # "original", "Langevin", or "withoutLangevin"
+
+saveim_path: "./recon_images/mtd___recon_method__/__subjectname__/imagery____targetimname__.tiff"
+saveim_pathitems: ["__recon_method__", "__subjectname__", "__targetimname__"]
+

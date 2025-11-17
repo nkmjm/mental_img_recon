@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
 from IPython.display import clear_output, display
-from . import recon_func
+import recon_func
 
 
 def convert_featname(names, cvt_to='directory'):
